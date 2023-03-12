@@ -4,4 +4,6 @@ export interface CharacterInterface {
   description: string;
   profilePicture: string;
   bannerPicture: string;
+  baseHealth: number;
+  baseSpeed: number;
 }
