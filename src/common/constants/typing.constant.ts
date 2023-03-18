@@ -1,4 +1,4 @@
-export enum Typing {
+export enum TypingEnum {
   Normal,
   Fire,
   Water,
