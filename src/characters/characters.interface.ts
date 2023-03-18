@@ -7,3 +7,10 @@ export interface CharacterInterface {
   baseHealth: number;
   baseSpeed: number;
 }
+
+export interface GameCharacterInterface extends CharacterInterface {
+  currentHealth: number;
+  currentSpeed: number;
+  gameId: number;
+  playerId: number;
+}
