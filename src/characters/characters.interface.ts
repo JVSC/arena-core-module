@@ -1,4 +1,4 @@
-import { InGameSkillInterface, SkillInterface } from '../skills';
+import { SkillInterface } from '../skills';
 
 export interface CharacterInterface {
   name: string;
@@ -16,5 +16,5 @@ export interface InGameCharacterInterface extends CharacterInterface {
   currentSpeed: number;
   gameId: number;
   playerId: number;
-  skills: InGameSkillInterface[];
+  skills: SkillInterface[];
 }
