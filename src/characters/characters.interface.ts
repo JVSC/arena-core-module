@@ -8,7 +8,7 @@ export interface CharacterInterface {
   baseSpeed: number;
 }
 
-export interface GameCharacterInterface extends CharacterInterface {
+export interface InGameCharacterInterface extends CharacterInterface {
   currentHealth: number;
   currentSpeed: number;
   gameId: number;

@@ -12,7 +12,7 @@ export interface EffectInterface {
   effectData: DamageEffectInterface | HealingEffectInterface;
 }
 
-export interface IngameEffectInterface extends EffectInterface {
+export interface InGameEffectInterface extends EffectInterface {
   activeTurns: 0;
   casterGameId: number;
   targetGameId: number;

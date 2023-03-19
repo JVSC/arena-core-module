@@ -14,7 +14,7 @@ export interface SkillInterface {
   typing: TypingEnum;
 }
 
-export interface IngameSkillInterface extends SkillInterface {
+export interface InGameSkillInterface extends SkillInterface {
   activeCooldown: number;
   characterGameId: number;
   playerId: number;
