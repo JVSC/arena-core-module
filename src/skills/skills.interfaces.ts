@@ -1,5 +1,4 @@
 import { PersistenceEnum, TypingEnum } from '../common/constants';
-import { EffectInterface, InGameEffectInterface } from '../effects';
 import { SkillClassTypeEnum, SkillTargetTypeEnum } from './skills.constants';
 
 export interface SkillInterface {
@@ -13,7 +12,6 @@ export interface SkillInterface {
   picture: string;
   pictureBanner: string;
   typing: TypingEnum;
-  effects: EffectInterface[];
   targetType: SkillTargetTypeEnum;
 }
 
@@ -22,5 +20,4 @@ export interface InGameSkillInterface extends SkillInterface {
   characterGameId: number;
   playerId: number;
   isUsable: boolean;
-  effects: InGameEffectInterface[];
 }
