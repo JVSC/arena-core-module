@@ -2,6 +2,7 @@ export interface CharacterInterface {
   name: string;
   id: number;
   description: string;
+  overworldSprite: string;
   profilePicture: string;
   bannerPicture: string;
   baseHealth: number;
