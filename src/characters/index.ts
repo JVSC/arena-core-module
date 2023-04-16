@@ -1,1 +1,1 @@
-export * from './characters.interface';
+export * from './interfaces/characters.interface';
